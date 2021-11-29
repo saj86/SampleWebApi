@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:WebApi.Controllers.v1.BookController.Get(Application.DTOs.Book.SearchContext.BookSearchContext)">
+            <summary>
+            
+            </summary>
+            <param name="search"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.v1.BookController.Delete(Application.DTOs.Book.DeleteDTO.RequestDeleteBookDTO)">
+            <summary>
+            Removing Book
+            </summary>
+            <param name="deleteDto"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
