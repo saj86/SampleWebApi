@@ -19,7 +19,10 @@ namespace Infrastructure.Persistence.Contexts
             ChangeTracker.QueryTrackingBehavior = QueryTrackingBehavior.NoTracking;
             _dateTime = dateTime;
         }
+        public DataBaseContext(DbContextOptions<DataBaseContext> options) : base(options)
+        {
 
+        }
         public DbSet<Book> Books { get; set; }
 
 

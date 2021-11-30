@@ -38,10 +38,10 @@ namespace Infrastructure.Persistence.Repository
             }
             catch (Exception ex)
             {
-                entity = null;
                 throw ex;
             }
-           
+
+
         }
 
         public async Task UpdateAsync(T entity)

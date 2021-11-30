@@ -40,7 +40,8 @@ namespace WebApi
             services.AddControllers();  
             services.AddApiVersioningExtension();
             services.AddHealthChecks();
-            
+            //services.AddDbContext<DataBaseContext>(opt=>opt.UseInMemoryDatabase("booktest"));
+           
             services.TryAddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddOptions();
             
